@@ -35,6 +35,10 @@ a {
     cursor: pointer;
 }
 
+a:hover {
+    color: rgb(42, 182, 42);
+}
+
 h1 {
     font-family: "Roboto", sans-serif;
     color: var(--color-dark-green);
@@ -613,6 +617,7 @@ p {
     background-position-x: 140px;
     background-position-y: center;
     align-self: flex-start;
+    cursor: pointer;
 
 
 
@@ -685,6 +690,10 @@ p {
     height: 60px;
     background-color: #eff6f1;
     border-radius: 50%;
+}
+
+.socials__link:hover {
+    background-color: rgb(91, 182, 91);
 }
 
 .socials__link img {
