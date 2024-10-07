@@ -91,6 +91,63 @@
         font-size: 16px;
     }
 
+    .products__block {
+        min-height: 550px;
+        width: 380px;
+    }
+
+    .products__block__price img {
+        margin-left: -12px;
+    }
+
+    .testimonial {
+        padding-block: 10px 50px;
+    }
+
+    .testimonial__wrapper__text {
+        gap: 25px;
+    }
+    .testimonial__statistics__wrapper {
+        margin-top: 20px;
+    }
+
+    .testimonial__statistics {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        row-gap: 10px;
+    }
+
+    .products__block {
+        width: 350px;
+    }
+
+    .products__block__price {
+        flex-wrap: wrap;
+    }
+
+    .products__block__price img {
+        margin-left: 0px;
+    }
+
+    .testimonial {
+        background-size: contain;
+        background-position: none;
+    }
+
+    .eco__friendly img {
+        width: 103%;
+    }
+
+    .eco__friendly__text__block {
+        position: relative;
+        left: -60px;
+        padding: 0px 0px 0px 20px;
+        background-color: var(--color-white);
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px; 
+    }
+
     .eco__friendly__text__block__title {
         width: 100%;
     }
@@ -103,13 +160,182 @@
     .eco__friendly__text__block__text p {
         font-size: 16px;
     }
+
+    .site__sections {
+        padding-block: 50px;
+    }
+
+    .site__sections__block {
+        min-height: 500px;
+    }
+
+    .contacts {
+        padding-block: 50px;
+    }
 }
 
 @media (max-width: 1024px) {
+    .hero__text {
+        padding-block: 18px 10px;
+    }
+
+    .hero picture img {
+        width: 126%;
+    }
     
+    h1 {
+        font-size: 50px;
+    }
+
+    .offers {
+        padding-block: 60px;
+    }
+
+    .offers__left h3, .offers__right h3 {
+        font-size: 30px;
+    }
+
+    .about {
+        padding-block: 36px 45px;
+    }
+
+    .about img {
+        width: 40%;
+    }
+
+    .about__text h2 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .about__points__block {
+        margin-bottom: 15px;
+    }
+
+    .about__points__block p {
+        font-size: 14px;
+    }
+
+    .eco__friendly img {
+        width: 118%;
+    }
+
+    .eco__friendly__text__block__title {
+        margin-bottom: 18px;
+    }
+
+    .eco__friendly__text__block__title h2 {
+        font-size: 40px;
+    }
+
+    .subscribe__block {
+        padding: 45px 70px;
+    }
+
+    .subscribe.container {
+        padding-inline: 0;
+    }
+
+    .subscribe__content h2 {
+        font-size: 36px;
+    }
+
+    .subscribe__form {
+        align-items: center;
+    }
+
+    .subscribe__form__submit {
+        align-self: center;
+    }
+
+    .subscribe__form__email {
+        width: 336px;
+        height: 65px;
+        font-size: 16px;
+    }
+
+    .subscribe__form__submit {
+        padding: 18px 70px 18px 35px
+    }
+
+    .contacts {
+        padding-block: 35px;
+    }
+
+    .contacts__right__link {
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 1024px) {
+
+    .header__nav_toogle {
+        display: inline-block;
+    }
+
+    .header__nav_close {
+        border: 0;
+        background-color: transparent;
+        color: var(--color-white);
+
+        position: fixed;
+        z-index: 999;
+
+        top: 0;
+        left: 25%;
+
+        font-size: 56px;
+
+        transform: rotate(45deg);
+        cursor: pointer;
+    }
+
+    .header__nav_toogle {
+        padding:14px 40px 14px 40px;
+    }
+
+    .header__links {
+        display: none;
+    }
+
+    #header__nav_toogle:checked ~ .header__links,
+    #header__nav_toogle:checked ~ .header__nav_close {
+        display: flex;
+    }
+
+    .header.container {
+        gap: 20px;
+    }
+
+    .header__nav {
+        margin-right: auto;
+    }
+
+    .header__links {
+        flex-direction: column;
+        gap: 40px;
+
+        width: 30%;
+        height: 100%;
+
+        min-width: 300px;
+        max-width: 320px;
+        background-color: rgba(0, 0, 0, 0.8);
+        position: fixed;
+        top: 0;
+        left: 0;
+
+        box-shadow: 5px 0 30px #666;
+
+        padding: 80px 50px 50px 50px;
+
+        z-index: 998;
+    }
+
+    .header__link {
+        color: var(--color-white)
+    }
     
 }
 

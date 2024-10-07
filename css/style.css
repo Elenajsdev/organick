@@ -133,6 +133,15 @@ p {
     padding-right: 240px;
 }
 
+.header__nav_close,
+.header__nav_toogle {
+    display: none;
+}
+
+
+#header__nav_toogle {
+    display: none;
+}
 
 
 .header__links {
