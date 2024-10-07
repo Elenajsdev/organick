@@ -3,9 +3,405 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yellowtail&display=swap" rel="stylesheet">
+    <title>Organick</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/media.css">
 </head>
 <body>
+    <header class="header container">
+        <a href="/">
+            <img class="header__logo" src="/images/logo.png" alt="Organick homepage" width="200" height="56" >
+        </a>
+        <nav class="header__nav">
+            <ul class="header__links">
+                <li><a class="header__link" href="" >Home</a></li>
+                <li><a class="header__link" href="" >About us</a></li>
+                <li><a class="header__link" href="" >Shop</a></li>
+                <li><a class="header__link" href="" >Pages</a></li>
+                <li><a class="header__link" href="" >Contact us</a></li>
+            </ul>  
+        </nav>
+        <a class="header__cart" href="#">Cart 0</a>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero__text">
+                <h4>Made with nature</h4>
+                <h1>Welcome to the world of nature and organic.</h1>
+                <a class="button explore" href="#" >Explore now</a>
+            </div>
+            <picture>
+                <img src="/images/hero_bg_cutted.png" alt="">
+            </picture>
+        </section>
+        <section class="offers container">
+            <div class="offers__left">
+                <h4>Natural!!</h4>
+                <h3>Get garden fresh fruits</h3>
+            </div>
+            <div class="offers__right">
+                <h4>Offer!!</h4>
+                <h3>Get 10% off on Vegetables</h3>
+            </div>
+        </section>
+        <section class="about container">
+            <img src="/images/about.png" alt="Oranges">
+            <div class="about__text">
+                <h4>About us</h4>
+                <h2>We Believe in Organic Foods For Strong Health</h2>
+                <p>Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition.</p>
+                <div class="about__points">
+                    <div class="about__points__block">
+                        <img src="/images/organic_food.png" alt="">
+                        <div>
+                            <h5>Organic Foods Only</h5>
+                            <p>The Product that you ordered will be verified that we have or not if have we will start to move on with the next step.</p>
+                        </div>
+                    </div>
+                    <div class="about__points__block">
+                        <img src="/images/quality.png" alt="">
+                        <div>
+                            <h5>Quality Standards</h5>
+                            <p>Once your product is packed it will be delivered to your nearby locality you can directly visit the to buy the product.</p>
+                        </div>
+                    </div>
+                    <a class="button shop" href="#" >Shop now</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="products__title">
+                <h4>Organic</h4>
+                <h2>Our Products</h2>
+            </div>
+
+            <div class="products__block__wrapper">
+
+                
+                <div class="products__block">
+                    <div class="products__block__type">Vegetable</div>
+                    <a href="#"><img class="products__block__pic" src="/images/broccoli.png" alt="Broccoli"></a>
+                    <a class="products__block__name" href="#">Calabrese Broccoli</a>
+                    <div class="products__block__price">
+                        <span><s>$ 25.00 USD</s></span>
+                        <span>$ 21.00 USD</span>
+                        <img src="/images/stars.png" alt="">
+                    </div>
+                </div>
+                
+                <div class="products__block">
+                    <div class="products__block__type">Vegetable</div>
+                    <a href="#"><img class="products__block__pic" src="/images/corn.png" alt="Corn"></a>
+                    <a class="products__block__name" href="#">Fresh Corn</a>
+                    <div class="products__block__price">
+                        <span><s>$ 21.23 USD</s></span>
+                        <span>$ 18.00 USD</span>
+                        <img src="/images/stars.png" alt="">
+                    </div>
+                </div>
+
+                <div class="products__block">
+                    <div class="products__block__type">Mill</div>
+                    <a href="#"><img class="products__block__pic" src="/images/pictashio.png" alt="Pistachio"></a>
+                    <a class="products__block__name" href="#">Dried Pistachio</a>
+                    <div class="products__block__price">
+                        <span><s>$ 61.00 USD</s></span>
+                        <span>$ 48.00 USD</span>
+                        <img src="/images/stars.png" alt="">
+                    </div>
+                </div>
+
+                <div class="products__block">
+                    <div class="products__block__type">Vegetable</div>
+                    <a href="#"><img class="products__block__pic" src="/images/tomato.png" alt="Red tomato"></a>
+                    <a class="products__block__name" href="#">Vegan Red Tomato</a>
+                    <div class="products__block__price">
+                        <span><s>$ 14.00 USD</s></span>
+                        <span>$ 9.37 USD</span>
+                        <img src="/images/stars.png" alt="">
+                    </div>
+                </div>
+
+                <div class="products__block">
+                    <div class="products__block__type">Fru</div>
+                    <a href="#"><img class="products__block__pic" src="/images/almonds.png" alt="Almonds"></a>
+                    <a class="products__block__name" href="#">Organic Almonds</a>
+                    <div class="products__block__price">
+                        <span><s>$ 21.00 USD</s></span>
+                        <span>$ 18.00 USD</span>
+                        <img src="/images/stars.png" alt="">
+                    </div>
+                </div>
+
+                <div class="products__block">
+                    <div class="products__block__type">Mill</div>
+                    <a href="#"><img class="products__block__pic" src="/images/hazelnut.png" alt="Hazelnut"></a>
+                    <a class="products__block__name" href="#">Brown Hazelnut</a>
+                    <div class="products__block__price">
+                        <span><s>$ 43.00 USD</s></span>
+                        <span>$ 34.00 USD</span>
+                        <img src="/images/stars.png" alt="">
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+        <section class="testimonial">
+            <div class="testimonial__wrapper">
+
+                <div class="testimonial__wrapper__text">
+ 
+                    <h4>Testimonial</h4>
+                    <h3 class="testimonial__header">What Our Customer Saying?</h3>
+                    <img src="/images/consumer_pic.png" alt="Customer picture" width="115" height="115">
+                    <img src="/images/stars.png" alt="5 stars" width="89" height="19">
+                    <p>The quality of organic produce is extremely high, the service is second to none and the taste of the food takes me back to my childhood when we were growing our own.</p>
+                    <span class="testimonial__wrapper__text__name">Sara Taylor</span>
+                    <span>Consumer</span>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="testimonial__statistics__wrapper">
+
+                    
+                    <div class="testimonial__statistics">
+                        
+                        <div class="testimonial__statistics__item">
+                            <h2>100%</h2>
+                            <div>Organic</div>
+                        </div>
+                        
+                        <div class="testimonial__statistics__item">
+                            <h2>285</h2>
+                            <div>Active Product</div>
+                        </div>
+                        
+                        <div class="testimonial__statistics__item">
+                            <h2>385+</h2>
+                            <div>Organic Orchads</div>
+                        </div>
+                        
+                        <div class="testimonial__statistics__item">
+                            <h2>25+</h2>
+                            <div>Years of Farming</div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="top__products">
+
+            <div class="top__products__header">
+                <div class="top__products__header_title">
+                    <h4>Offer Products</h4>
+                    <h2>We Offer Organic for You</h2>
+                </div>
+                <div>
+                    <a class="button explore" href="#" >View All products</a>
+                </div>
+            </div>
+
+
+            <div class="top__products__items">
+
+                <div class="products__block">
+                    <div class="products__block__type">Vegetable</div>
+                    <a href="#"><img class="products__block__pic" src="/images/tomato.png" alt="Red tomato"></a>
+                    <a class="products__block__name" href="#">Vegan Red Tomato</a>
+                    <div class="products__block__price">
+                        <span><s>$ 14.00 USD</s></span>
+                        <span>$ 9.37 USD</span>
+                        <img src="/images/stars.png" alt="">
+                    </div>
+                </div>
+
+
+                <div class="products__block">
+                    <div class="products__block__type">Fru</div>
+                    <a href="#"><img class="products__block__pic" src="/images/almonds.png" alt="Almonds"></a>
+                    <a class="products__block__name" href="#">Organic Almonds</a>
+                    <div class="products__block__price">
+                        <span><s>$ 21.00 USD</s></span>
+                        <span>$ 18.00 USD</span>
+                        <img src="/images/stars.png" alt="">
+                    </div>
+                </div>
+
+
+                <div class="products__block">
+                    <div class="products__block__type">Vegetable</div>
+                    <a href="#"><img class="products__block__pic" src="/images/corn.png" alt="Corn"></a>
+                    <a class="products__block__name" href="#">Fresh Corn</a>
+                    <div class="products__block__price">
+                        <span><s>$ 21.23 USD</s></span>
+                        <span>$ 18.00 USD</span>
+                        <img src="/images/stars.png" alt="">
+                    </div>
+                </div>
+
+                
+            </div>
+
+
+
+
+        </section>
+
+
+        <section class="eco__friendly">
+            <img class="eco__friendly__picture" src="/images/eco_friendly_bg.png" alt="#" >
+            <div class="eco__friendly__right">
+                <div class="eco__friendly__text__block">
+                    <div class="eco__friendly__text__block__title">
+                        <h4>Eco Friendly</h4>
+                        <h2>From our Farm to your Home.</h2>
+
+                    </div>
+                    <div class="eco__friendly__text__block__text">
+                        <h3>Choose Your Products</h3>
+                        <p>In our listing, we have several collections of organic products. This is the place where you need to choose the product you want.</p>
+                        <h3>Farmers will produce it</h3>
+                        <p>The Product that you ordered will be verified that we have or not if have we will start to move on with the next step.</p>
+                        <h3>We Can Delivery too</h3>
+                        <p>If you are not comfortable going to the nearby market place we also will deliver your product to your doorstep.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="site__sections">
+            <div class="site__sections__blocks">
+                
+                <div class="site__sections__block">
+                    <a href="#">
+                        <h3>Fruit Juice</h3>
+                    </a>
+                </div>
+                
+                <div class="site__sections__block">
+                    <a href="#">
+                        <h3>Organic Food</h3>
+                    </a>
+                </div>
+                
+                <div class="site__sections__block">
+                    <a href="#">
+                        <h3>Nuts Cookies</h3>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="subscribe container">
+            <div class="subscribe__block">
+
+                
+                
+                <div class="subscribe__content">
+                    
+                    <h2>Subscribe our Newsletter</h2>
+                    
+                    <form class="subscribe__form" action="#">
+                        <input class="subscribe__form__email" type="email" name="email" id="email" placeholder="Enter your email address">
+                        <input class="subscribe__form__submit" type="submit" value="Subscribe">
+                    </form>
+                    
+                </div>
+                
+            </div>
+
+        </section>
+
+        
+
+
+
+
+
+    </main>
+    <footer>
+
+        <section class="contacts">
+            <div class="contacts__container">
+
+                
+                <div class="contacts__left">
+                    
+                    <div class="contacts__left__header">
+                        <h3>Contact Us</h3>
+                    </div>
+                    
+                    <div class="contacts__left__item">
+                        <h4>Email</h4>
+                        <a href="#">needhelp@organick.com</a>
+                    </div>
+                    
+                    <div class="contacts__left__item">
+                        <h4>Phone</h4>
+                        <a href="tel:12312541452">123 (1254) 1452</a>
+                    </div>
+                    
+                    <div class="contacts__left__item">
+                        <h4>Address</h4>
+                        <div>88 Road, Brooklyn Street, USA</div>
+                    </div>
+                    
+                </div>
+                
+                <div class="contacts__center">
+                    
+                    <a href="/">
+                        <img class="header__logo" src="/images/logo.png" alt="Organick homepage" width="200" height="56" >
+                    </a>
+                    
+                    <p>We are a popular and farming company aspiring to be a leader in the Organic food industry.</p>
+                    
+                    <div class="socials">
+                        <a class="socials__link" href="#"><img src="/images/ico_fb.png" alt="Facebook"></a>
+                        <a class="socials__link" href="#"><img src="/images/ico_tw.png" alt="Twitter"></a>
+                        <a class="socials__link" href="#"><img src="/images/ico_inst.png" alt="Instagram"></a>
+                        <a class="socials__link" href="#"><img src="/images/ico_pin.png" alt="Pinterest"></a>
+                    </div>
+                    
+                </div>
+                
+                <div class="contacts__right">
+                    <h3>Utility Pages</h3>
+                    <ul class="contacts__right__links">
+                        <li><a class="contacts__right__link" href="#">Style Guide</a></li>
+                        <li><a class="contacts__right__link" href="#">Protected</a></li>
+                        <li><a class="contacts__right__link" href="#">Page Not Found</a></li>
+                        <li><a class="contacts__right__link" href="#">Changelog</a></li>
+                        <li><a class="contacts__right__link" href="#">Licenses</a></li>
+                    </ul>
+                    
+                </div>
+                
+            </div>
+        </section>
+
+
+
+
+
+        <section class="map container">
+            <div style="position:relative;overflow:hidden;"><a href="https://yandex.by/maps?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Яндекс Карты</a><a href="https://yandex.by/maps/geo/minnesota/2239892176/?ll=-95.490660%2C47.603636&utm_campaign=desktop&utm_medium=mapframe&utm_source=maps&z=6.9" style="color:#eee;font-size:12px;position:absolute;top:14px;">Штат Миннесота — Яндекс Карты</a><iframe src="https://yandex.by/map-widget/v1/?ll=-95.490660%2C47.603636&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoyMjM5ODkyMTc2EiNVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsIE1pbm5lc290YSIKDdoAvcIVBcU5Qg%2C%2C&utm_campaign=desktop&utm_medium=search&utm_source=maps&z=6.9" width="100%" height="660" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+        
+        </section>
+            
+    </footer>
+
     
 </body>
 </html>
